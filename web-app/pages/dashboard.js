@@ -32,18 +32,20 @@ const Dashboard = () => {
     );
 
     return (
-        <div>
-            <h1>Cryptocurrency Prices</h1>
+        <div className="container mt-5">
+            <h1 className="mb-3">Cryptocurrency Prices</h1>
             <input 
                 type="text" 
+                className="form-control mb-4"
                 placeholder="Search for a cryptocurrency..."
                 value={searchTerm}
                 onChange={handleSearchChange}
             />
-            <ul>
+            <ul className="list-group">
                 {filteredCryptos.map(crypto => (
-                    <li key={crypto.id}>
-                        {crypto.name}: ${crypto.current_price}
+                    <li key={crypto.id} className="list-group-item d-flex justify-content-between align-items-center">
+                        {crypto.name}
+                        <span className="badge bg-primary rounded-pill">${crypto.current_price}</span>
                     </li>
                 ))}
             </ul>
