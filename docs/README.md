@@ -26,18 +26,18 @@ To run this project, you will need Node.js and npm installed on your computer. A
 
 1. To got docs folder
 
-   ```
+   ```bash
    cd docs
    ```
 2. Install dependencies:
 
-   ```
+   ```bash
    npm install
    ```
 3. Start the development server
 
-   ```
+   ```bash
    npm run start
    ```
 
-The application will be available at `http://localhost:3000/docs`.
+The application will be available at [http://localhost:3000/docs](http://localhost:3000/docs).
