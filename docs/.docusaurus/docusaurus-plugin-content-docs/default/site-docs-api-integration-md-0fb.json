@@ -1,0 +1,27 @@
+{
+  "id": "api-integration",
+  "title": "API Integration",
+  "description": "The application fetches real-time cryptocurrency data using CoinGecko's API.",
+  "source": "@site/docs/api-integration.md",
+  "sourceDirName": ".",
+  "slug": "/api-integration",
+  "permalink": "/docs/api-integration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "API Integration",
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Project Setup Guide",
+    "permalink": "/docs/setup-guide"
+  },
+  "next": {
+    "title": "State Management",
+    "permalink": "/docs/state-management"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "state-management",
+  "title": "State Management",
+  "description": "We use React Query for state management instead of Redux or Context API.",
+  "source": "@site/docs/state-management.md",
+  "sourceDirName": ".",
+  "slug": "/state-management",
+  "permalink": "/docs/state-management",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "State Management",
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "API Integration",
+    "permalink": "/docs/api-integration"
+  },
+  "next": {
+    "title": "Challenges & Solutions",
+    "permalink": "/docs/challenges"
+  }
+}
