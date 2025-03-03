@@ -3,6 +3,7 @@ import axios from 'axios';
 
 const Dashboard = () => {
     const [cryptos, setCryptos] = useState([]);
+    const [searchTerm, setSearchTerm] = useState('');
 
     useEffect(() => {
         const fetchData = async () => {
@@ -22,11 +23,25 @@ const Dashboard = () => {
         fetchData();
     }, []);
 
+    const handleSearchChange = (event) => {
+        setSearchTerm(event.target.value);
+    };
+
+    const filteredCryptos = cryptos.filter(crypto =>
+        crypto.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
     return (
         <div>
             <h1>Cryptocurrency Prices</h1>
+            <input 
+                type="text" 
+                placeholder="Search for a cryptocurrency..."
+                value={searchTerm}
+                onChange={handleSearchChange}
+            />
             <ul>
-                {cryptos.map(crypto => (
+                {filteredCryptos.map(crypto => (
                     <li key={crypto.id}>
                         {crypto.name}: ${crypto.current_price}
                     </li>
