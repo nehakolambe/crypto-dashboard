@@ -1,7 +1,7 @@
 {
   "id": "api-integration",
   "title": "API Integration",
-  "description": "The application fetches real-time cryptocurrency data using CoinGecko's API.",
+  "description": "Overview.",
   "source": "@site/docs/api-integration.md",
   "sourceDirName": ".",
   "slug": "/api-integration",

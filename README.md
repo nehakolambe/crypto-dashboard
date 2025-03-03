@@ -90,7 +90,7 @@ Both projects require [Node.js](https://nodejs.org/) (version 14 or newer) and n
    npm run dev
    ```
 
-The application will be available at [http://localhost:3000/dahhboard](http://localhost:3000/dahhboard).
+The application will be available at [http://localhost:3000/dashboard](http://localhost:3000/dashboard).
 
 ### Documentation Site
 
@@ -109,4 +109,4 @@ The application will be available at [http://localhost:3000/dahhboard](http://lo
    ```bash
    npm run start
    ```
-   The documentation site will be available at `http://localhost:3000/docs`.
+   The documentation site will be available at [http://localhost:3001/docs](http://localhost:3001/docs).

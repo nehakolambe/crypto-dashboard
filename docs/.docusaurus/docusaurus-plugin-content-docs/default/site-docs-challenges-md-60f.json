@@ -1,7 +1,7 @@
 {
   "id": "challenges",
   "title": "Challenges & Solutions",
-  "description": "",
+  "description": "Overview",
   "source": "@site/docs/challenges.md",
   "sourceDirName": ".",
   "slug": "/challenges",

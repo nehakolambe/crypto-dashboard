@@ -6,7 +6,7 @@
 export default {
   "title": "Crypto Dashboard Docs",
   "tagline": "Documentation for Crypto Dashboard",
-  "url": "http://localhost:3000",
+  "url": "http://localhost:3001",
   "baseUrl": "/docs/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",

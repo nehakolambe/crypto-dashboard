@@ -78,7 +78,7 @@ To run this project, you will need Node.js and npm installed on your computer. A
    npm run dev
    ```
 
-The application will be available at [http://localhost:3000/dahhboard](http://localhost:3000/dahhboard).
+The application will be available at [http://localhost:3000/dashboard](http://localhost:3000/dashboard).
 
 ## Technology Stack
 

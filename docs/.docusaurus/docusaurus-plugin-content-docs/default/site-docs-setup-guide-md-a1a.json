@@ -1,7 +1,7 @@
 {
   "id": "setup-guide",
   "title": "Project Setup Guide",
-  "description": "This project includes a web application built with Next.js and a mobile app (if applicable). Follow the steps below to set up and run both.",
+  "description": "This project includes a web application built with Next.js. Follow the steps below to set up and run the web-app.",
   "source": "@site/docs/setup-guide.md",
   "sourceDirName": ".",
   "slug": "/setup-guide",
